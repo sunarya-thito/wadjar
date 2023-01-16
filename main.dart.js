@@ -67206,7 +67206,7 @@ A.nm.prototype={
 a2(){return new A.Na(B.k)},
 Ce(){return"menu.mp3"}}
 A.Na.prototype={
-C2(a,b,c,d){var s=null,r=A.cv(10),q=A.aG(a,s,s,s,A.bk(s,s,B.m,s,B.e,s,s,s,"Exo2",s,s,s,s,s,B.W,s,s,!0,s,s,s,s,s,s,s,s),s,s),p=A.aP(B.v,A.fE("images/"+c+".png",250,s,s),B.j,s,s,s,s,350,s,s,s,s,s),o=t.p,n=A.a([A.aG("ATURAN MODE",s,s,s,A.bk(s,s,B.m,s,B.e,s,s,s,"Exo2",s,s,20,s,s,B.l,s,s,!0,s,s,s,s,s,s,s,s),s,s)],o)
+C2(a,b,c,d){var s=null,r=A.cv(10),q=A.aG(a,s,s,s,A.bk(s,s,B.m,s,B.e,s,s,s,"Exo2",s,s,40,s,s,B.W,s,s,!0,s,s,s,s,s,s,s,s),s,s),p=A.aP(B.v,A.fE("images/"+c+".png",250,s,s),B.j,s,s,s,s,350,s,s,s,s,s),o=t.p,n=A.a([A.aG("ATURAN MODE",s,s,s,A.bk(s,s,B.m,s,B.e,s,s,s,"Exo2",s,s,20,s,s,B.l,s,s,!0,s,s,s,s,s,s,s,s),s,s)],o)
 B.b.N(n,new A.a6(b,new A.aeQ(),A.a3(b).h("a6<1,j>")))
 return A.mS(A.aP(s,A.c3(A.a([q,p,A.l2(A.c3(n,B.ax,B.u,B.x),1),A.dN(A.aG("MULAI",s,s,s,s,s,s),B.aE,30,100,new A.aeR(d),1/0)],o),B.w,B.u,B.x),B.j,s,s,new A.bA(B.h,s,s,r,s,s,B.G),s,700,s,new A.aL(20,20,20,20),s,s,500),B.L,B.eH)},
 ah(){this.aC()
