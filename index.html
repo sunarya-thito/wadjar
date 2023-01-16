@@ -36,12 +36,13 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2722804742';
+    var serviceWorkerVersion = '3309627193';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
+  <div id="preloader-custom" style="position: fixed; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); font-size: 5em;">Sedang Memuat Konten... Harap Bersabar!</div>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
@@ -52,6 +53,7 @@
       }).then(function(engineInitializer) {
         return engineInitializer.initializeEngine();
       }).then(function(appRunner) {
+        document.querySelector('#preloader-custom').remove();
         return appRunner.runApp();
       });
     });
